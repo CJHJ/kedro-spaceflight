@@ -29,7 +29,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-# kedro_tutorial documentation build
+# kedro_spaceflight documentation build
 # configuration file, created by sphinx-quickstart.
 #
 # This file is execfile()d with the current directory set to its
@@ -50,11 +50,11 @@ import re
 from kedro.framework.cli.utils import find_stylesheets
 from recommonmark.transform import AutoStructify
 
-from kedro_tutorial import __version__ as release
+from kedro_spaceflight import __version__ as release
 
 # -- Project information -----------------------------------------------------
 
-project = "kedro_tutorial"
+project = "kedro_spaceflight"
 copyright = "2020, QuantumBlack Visual Analytics Limited"
 author = "QuantumBlack"
 
@@ -149,7 +149,7 @@ html_show_sourcelink = False
 # -- Options for HTMLHelp output ---------------------------------------------
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = "kedro_tutorialdoc"
+htmlhelp_basename = "kedro_spaceflightdoc"
 
 # -- Options for LaTeX output ------------------------------------------------
 
@@ -177,8 +177,8 @@ latex_elements = {
 latex_documents = [
     (
         master_doc,
-        "kedro_tutorial.tex",
-        "kedro_tutorial Documentation",
+        "kedro_spaceflight.tex",
+        "kedro_spaceflight Documentation",
         "QuantumBlack",
         "manual",
     )
@@ -191,8 +191,8 @@ latex_documents = [
 man_pages = [
     (
         master_doc,
-        "kedro_tutorial",
-        "kedro_tutorial Documentation",
+        "kedro_spaceflight",
+        "kedro_spaceflight Documentation",
         [author],
         1,
     )
@@ -206,11 +206,11 @@ man_pages = [
 texinfo_documents = [
     (
         master_doc,
-        "kedro_tutorial",
-        "kedro_tutorial Documentation",
+        "kedro_spaceflight",
+        "kedro_spaceflight Documentation",
         author,
-        "kedro_tutorial",
-        "Project kedro_tutorial codebase.",
+        "kedro_spaceflight",
+        "Project kedro_spaceflight codebase.",
         "Data-Science",
     )
 ]
