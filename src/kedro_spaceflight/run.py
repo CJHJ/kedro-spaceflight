@@ -37,12 +37,16 @@ class ProjectContext(KedroContext):
     or create new ones (e.g. as required by plugins)
     """
 
+    def _setup_logging(self) -> None:
+        pass
+
 
 def run_package():
     # Entry point for running a Kedro project packaged with `kedro package`
     # using `python -m <project_package>.run` command.
     project_context = load_package_context(
-        project_path=Path.cwd(), package_name=Path(__file__).resolve().parent.name
+        project_path=Path.cwd(),
+        package_name=Path(__file__).resolve().parent.name,
     )
     project_context.run()
 
