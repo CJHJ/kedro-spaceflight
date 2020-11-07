@@ -2,6 +2,6 @@ kedro_spaceflight
 =================
 
 .. toctree::
-   :maxdepth: 4
+   :maxdepth: 5
 
    kedro_spaceflight

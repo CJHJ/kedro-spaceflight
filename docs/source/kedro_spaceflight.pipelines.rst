@@ -5,4 +5,11 @@ kedro\_spaceflight.pipelines package
     :members:
     :undoc-members:
     :show-inheritance:
+    
+Subpackages
+-----------
 
+.. toctree::
+
+    kedro_spaceflight.pipelines.data_engineering
+    kedro_spaceflight.pipelines.data_science

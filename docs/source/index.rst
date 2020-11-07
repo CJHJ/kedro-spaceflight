@@ -6,7 +6,7 @@ Welcome to project kedro_spaceflight's API docs!
 =============================================
 
 .. toctree::
-   :maxdepth: 4
+   :maxdepth: 5 
 
    modules
 
