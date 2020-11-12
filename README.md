@@ -1,4 +1,4 @@
-# kedro-spaceflight
+# kedro-spaceflight: personal tutorial
 
 ## Overview
 
